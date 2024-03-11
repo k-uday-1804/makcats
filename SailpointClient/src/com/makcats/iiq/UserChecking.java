@@ -20,7 +20,7 @@ public class UserChecking {
         String username = generateUniqueUsername(context, firstName, lastName);
         
         Identity userInfo = context.getObject(Identity.class, username);
-        
+        //
         if (userInfo == null) {
             // User does not exist, create new user
             userInfo = new Identity();

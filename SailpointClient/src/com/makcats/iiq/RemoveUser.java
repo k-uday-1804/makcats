@@ -21,9 +21,8 @@ public class RemoveUser {
         	System.out.println("Identity deleted succesfully.");
         }else {
         	System.out.println("Identity not found");
-        }
-       
-        
+        }      
+   //     
         context.close();
         starter.close();
 	}

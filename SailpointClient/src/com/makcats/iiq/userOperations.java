@@ -55,6 +55,7 @@ public class userOperations {
         // Setting new values
         userInfo.setEmail("James.Smith@demoexample.com");
         userInfo.setFirstname("James ");
+        //
 
         // Saving the changes
         context.saveObject(userInfo);
